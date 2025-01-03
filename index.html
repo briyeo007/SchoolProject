@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Programming Term Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <h1>Web Programming Term Project</h1>
+
+    <h2>Current Popular Movies</h2>
+    <nav>
+        <ul class="container">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact_us.html">Contact US</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Filter Movies Using Genre</h3>
+        <div id="movieGenres" class="detailContainer"></div>
+        <table id="movieTable">
+            <tr>
+                <th>Movie Title</th>
+                <th>Release Date</th>
+                <th>Rating</th>
+                <th>Select</th>
+            </tr>
+        </table>
+        <div id="movieDetails" class="detailContainer"></div>
+        <label class="c3-children" for="c3Movie">Enter Movie Name:</label>
+        <input class="c3-children" type="text" id="c3Movie">
+    </main>
+
+
+
+    <footer>
+        <p class="attribution">&copy;TMDb - Data Source: <a href="themoviedb.org">The Movie Db</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  max-width: 80%;
+  background: rgb(247, 224, 195);
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0;
+  background: burlywood;
+  max-width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+h2 {
+  padding: 20px 5px;
+  margin: 0;
+  background: wheat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  flex-grow: 1;
+  background: whitesmoke;
+  margin: 0;
+}
+
+td {
+  border: 1px burlywood solid;
+  background: whitesmoke;
+  margin: 0;
+  font-size: larger;
+  padding: 5px;
+}
+
+th {
+  font-size: larger;
+  padding: 5px;
+}
+
+.attribution {
+  padding: 20px 5px;
+  background: wheat;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: black;
+  background: none;
+}
+
+/* Addons */
+
+button {
+  color: whitesmoke;
+  background: burlywood;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: larger;
+  margin: 10px auto;
+}
+
+.movieBlock {
+  margin-top: 40px;
+}
+
+.descriptionContainer {
+  background: rgb(74, 42, 7);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  font-size: x-large;
+}
+
+.textDescription {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+nav {
+  background-color: burlywood;
+  padding: 10px 0;
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 8px;
+  background-color: teal;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  margin: 10px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea,
+input[type='text'] {
+  width: 100%;
+  border: 1px solid burlywood;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+  resize: vertical;
+}
+label {
+  text-align: start;
+}
+
+#submitButton,
+#searchButton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+#message {
+  height: 200px;
+}
+#aboutustext {
+  text-align: left;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
